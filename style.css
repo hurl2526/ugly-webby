@@ -1,5 +1,9 @@
+body {  
+    background-image: url(https://assets.change.org/photos/1/te/pm/CJTepmtOAFHnwwc-1600x900-noPad.jpg?1486500295);
+}
+
 h1 {
-    color: #111;
+    color: brown;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 275px;
     font-weight: bold;
@@ -9,6 +13,7 @@ h1 {
 }
 
 p {
+    background-image:http://edc.h-cdn.co/assets/16/27/1600x800/1468014510-landscape-1467993669-index-ugliest-home-colors.jpg;
     color: #685206;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 14px;
@@ -49,4 +54,11 @@ form {
 input, textarea {
     padding:5px;
     margin:5px
+}
+.lists {
+    background-color:greenyellow;
+}
+.ipsum {
+    background-image: url(http://img.timeinc.net/time/photoessays/2009/ugly_dogs/ugly_dogs_01.jpg);
+    background-size: 100px 100px;
 }
