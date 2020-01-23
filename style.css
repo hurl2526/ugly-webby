@@ -1,5 +1,6 @@
 body {  
     background-image: url(https://assets.change.org/photos/1/te/pm/CJTepmtOAFHnwwc-1600x900-noPad.jpg?1486500295);
+    background-size: auto;
 }
 
 h1 {
@@ -55,10 +56,33 @@ input, textarea {
     padding:5px;
     margin:5px
 }
-.lists {
-    background-color:greenyellow;
+
+#myDIV {
+    background-color: hotpink;
+    line-height: 16px;
+    animation: mymove 5s infinite;
 }
-.ipsum {
-    background-image: url(http://img.timeinc.net/time/photoessays/2009/ugly_dogs/ugly_dogs_01.jpg);
-    background-size: 100px 100px;
+@keyframes mymove {
+    50% {line-height: 50px;}
 }
+#crazy {
+    width: 400px;
+  height: 400px;
+  background-color: coral;
+  color: white;
+  animation: mylater 5s infinite;
+}
+
+@keyframes mylater {
+  50% {box-shadow: 10px 20px 30px blue;}
+}
+.changing-color {
+        width: 300px;
+        height: 200px;
+        background: red;
+        animation: colorchange 5s infinite;
+      }
+      
+      @keyframes colorchange {
+        50% {background-color: blue;}
+      }
