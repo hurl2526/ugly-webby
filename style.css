@@ -4,9 +4,12 @@ body {
 }
 
 h1 {
-    color: brown;
+    text-shadow: 0 6px 4px #85c226,
+	-3px -5px 4px #fe2192,
+	3px -5px 4px #f7c200;
+    color:whitesmoke;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
+    font-size: 100px;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
@@ -14,8 +17,8 @@ h1 {
 }
 
 p {
-    background-image:http://edc.h-cdn.co/assets/16/27/1600x800/1468014510-landscape-1467993669-index-ugliest-home-colors.jpg;
-    color: #685206;
+    background-color:mediumslateblue;
+    color:black;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -38,8 +41,7 @@ ul, ol {
 li {
     font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
     border-bottom: 1px solid #ccc;
-}
-   
+}  
 li:last-child {
     border: none;
 }
@@ -67,7 +69,7 @@ input, textarea {
 }
 #crazy {
     width: 400px;
-  height: 400px;
+  height: 200px;
   background-color: coral;
   color: white;
   animation: mylater 5s infinite;
@@ -81,8 +83,25 @@ input, textarea {
         height: 200px;
         background: red;
         animation: colorchange 5s infinite;
-      }
-      
-      @keyframes colorchange {
+    }
+    @keyframes colorchange {
         50% {background-color: blue;}
-      }
+    }
+    .jumble {
+        color: black;
+        border: 1px solid black;
+        animation: jumb 5s infinite;
+    }
+
+    @keyframes jumb {
+        50% {word-spacing: 50px;}
+    }
+.lister {
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    animation: bordermove 5s infinite;
+    }
+    @keyframes bordermove {
+    50% {border-bottom-left-radius: 150px;}
+    }
